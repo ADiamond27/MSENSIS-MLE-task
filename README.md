@@ -72,9 +72,17 @@ MSENSIS-MLE-task/
 - `data/`, `models/`, and `.venv/` are ignored to keep the repo lean.
 
 ## Screenshots
-Add screenshots (e.g., Streamlit UI, API test) to `assets/` and reference them in this README, for example:
+Place images in `assets/` and reference them here. Examples:
+- Empty state: `assets/ui-empty.png`
+- Cat prediction: `assets/ui-cat-1.png`
+- Cat prediction (alt): `assets/ui-cat-2.png`
+- Dog prediction: `assets/ui-dog-1.png`
+
+Markdown example:
 ```
-![Streamlit UI](assets/ui.png)
+![Streamlit UI - empty](assets/ui-empty.png)
+![Streamlit UI - cat](assets/ui-cat-1.png)
+![Streamlit UI - dog](assets/ui-dog-1.png)
 ```
 
 ## GitHub remote
@@ -82,3 +90,4 @@ If you renamed the repo on GitHub, update the local remote:
 ```
 git remote set-url origin https://github.com/<you>/MSENSIS-MLE-task.git
 ```
+
